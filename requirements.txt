@@ -1,0 +1,17 @@
+lightgbm==4.6.0
+shap==0.51.0
+scikit-learn==1.8.0
+langgraph==1.1.4
+langchain==1.2.14
+langchain-openai==1.1.12
+openai==2.30.0
+fastapi==0.135.3
+uvicorn==0.42.0
+streamlit==1.56.0
+pandas==3.0.2
+matplotlib==3.10.0
+numpy==2.4.4
+plotly==6.6.0
+joblib==1.5.3
+scipy==1.17.1
+python-dotenv==1.2.2

@@ -1,0 +1,4 @@
+mode,fraud_caught_dollars,fraud_missed_dollars,false_positives
+Supervised only,582000.0,217000.0,2606
+Anomaly only,146400.0,652600.0,3888
+Combined (max score),588000.0,211000.0,6329
