@@ -1,3 +1,30 @@
+# Secrets — never commit
 .env
-outputs/*.pkl
+.env.*
+
+# Data & large artifacts (keep local only)
 data/
+
+# Trained models / pickles (regenerate with training scripts)
+outputs/*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Packaging / test
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
